@@ -1,0 +1,41 @@
+.user-container {
+    box-shadow:0 0 10px #0000001a;
+    margin:10px;
+    background-color:white;
+    width:250px;
+    border-radius:10px;
+    padding:10px
+    
+}
+
+.user-avatar img{
+    border-radius:50%;
+    padding:10px;
+    outline:1px solid orange;
+}
+
+.dashboard-container {
+    background-color:#EEF9FD;
+    width: 95%;
+    margin: auto;
+}
+
+.dashboard-users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Emailcontainer {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    border-bottom:2px solid grey !important;
+}
+.emailtitle h3{
+    margin:0;
+}
+.user-name {
+    color:#52BCFF;
+    margin:10px 0px ;
+    
+}

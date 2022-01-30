@@ -1,0 +1,120 @@
+.dashboard-users {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.profile-container{
+  background-color: #CDE3FB;
+}
+button.profile-btn {
+  float:left;
+  
+}
+
+.profile-filter {
+  width:95%;
+  margin:auto;
+  min-height: 35px;
+  position:relative;
+  padding-top:1%
+}
+
+.profile-content {
+  display:flex;
+ width:30%;
+  align-items:center;
+  justify-content:space-between;
+  float:right;
+
+}
+
+.profile-edit {
+  display:flex;
+  background:white;
+  border-radius:10px;
+  justify-content:center;
+  align-items:center;
+   }
+.profile-edit svg
+{
+  padding-left:4px;
+  padding-right:4px;
+  width:15%;
+}
+button.filter ,.create-new button,button.profile-btn
+{
+display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  padding:3px;
+}
+
+.create-new button{
+  background:#22BE7C;
+  color:white;
+  border:1px solid #22BE7C;
+
+}
+button.filter,button.profile-btn
+{
+  border:1px solid #1D69D2;
+  background:#1D69D2;
+  color:white;
+  font-family:sans-serif;
+}
+button.filter svg
+{
+  padding:3%;
+  margin-right:5%;
+}
+
+
+.right-corner-icons {
+   display:flex;
+  background:white;
+  border-radius:10px;
+  justify-content:center;
+  align-items:center;
+}
+.right-corner-icons svg
+{
+   padding-left:4px;
+  padding-right:4px;
+  width:20%;
+}
+.profile-container {
+  min-height:700px;
+  max-height:1650px;
+}
+
+@media(max-width:545px){
+  .profile-content
+  {
+    width:80% !important;
+  }
+  .dashboard-users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+  
+}
+@media (min-width:578px) and (max-width:1024px)
+{
+  .profile-content {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+}
+.profile-container
+{
+  min-height: 850px;
+}
+.profile-filter button{
+  font-size:12px;
+}
+
+}

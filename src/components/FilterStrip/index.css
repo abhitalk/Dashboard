@@ -1,0 +1,10 @@
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    margin: 10px 15px;
+  }
+  
